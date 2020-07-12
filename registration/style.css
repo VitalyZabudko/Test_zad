@@ -1,0 +1,88 @@
+button{
+	background-color: white;
+	border-radius: 5px;
+	border-color: red;
+	padding: 15px 32px;
+	background-size: 10px;
+}
+
+button:hover{
+	background-color: gray;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+input[type ='password']{
+	padding: 8px 16px;
+	margin-top: 30px;
+	width: 150px;
+	font-family: 'Times New Roman';
+	font-size: 16px;
+}
+
+input[type ='text']{
+	padding: 8px 16px;
+	margin-top: 30px;
+	width: 150px;
+	font-family: 'Times New Roman';
+	font-size: 16px;
+}
+
+input[type ='submit']{
+	margin-top: 30px;
+	background-color: white;
+	border-radius: 5px;
+	border-color: black;
+	padding: 15px 32px;
+	background-size: 10px;
+	font-family: 'Times New Roman';
+	font-size: 16px;
+	margin-right: 40px;
+}
+
+input[type ='submit']:hover{
+	background-color: gray;
+	font-size: 18px;
+	cursor: pointer;
+	border-color: red;
+}
+
+input[type = 'text']:required{
+	border: 2px solid black;
+}
+
+input[type = 'text']:required:focus{
+	border: 2px solid red;
+  	outline: none;
+  }
+
+input[type ='password']:required{
+	border: 2px solid black;
+}
+
+input[type = 'password']:required:focus{
+	border: 2px solid red;
+  	outline: none;
+  }
+
+input[type = 'password']:required:hover{
+	border: 2px solid black;
+}
+
+input[type = 'text']:required:hover{
+	border: 2px solid black;
+}
+
+a{
+	margin-right: 50px;
+	font-family: 'Times New Roman';
+	font-size: 24px;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
